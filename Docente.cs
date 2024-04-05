@@ -4,7 +4,7 @@
     {
         public string Disciplina { get; set; }
 
-        public Docente(string nome, string disciplina) : base(nome)
+        public Docente(string nome, int idFuncionario, string disciplina) : base(nome, idFuncionario)
         {
             Disciplina = disciplina;
         }

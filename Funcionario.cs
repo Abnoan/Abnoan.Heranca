@@ -2,6 +2,10 @@
 {
     public abstract class Funcionario : MembroDaInstituicao
     {
-        public Funcionario(string nome) : base(nome) { }
+        public int IdFuncionario { get; set; }
+        public Funcionario(string nome, int idFuncionario) : base(nome)
+        {
+            IdFuncionario = idFuncionario;
+        }
     }
 }
