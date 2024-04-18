@@ -6,9 +6,9 @@
         {
             List<MembroDaInstituicao> membros = new()
             {
-                new Estudante("Abnoan", 12345),
-                new Administrativo("Hector", "Financeiro"),
-                new Docente("Rafael", "Matemática")
+                new Estudante(nome:"Abnoan", 12345),
+                new Administrativo("Hector", 123,"Financeiro"),
+                new Docente("Rafael", 2456 ,"Matemática")
             };
 
             foreach (var membro in membros)
